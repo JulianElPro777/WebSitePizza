@@ -37,13 +37,13 @@ h1,h2,h3,h4,h5{
 }
 .logo{
     font-size: 1.9em;
-    color: #de423a;
+    color: #d63e36;
     padding: 10px;
     font-family: 'Sacramento', cursive;
         
 }
 .main-header__contactInfo__phone{
-    background:#de423a;
+    background:#DE423a;
     color: #fff;
     padding: 10px;
     margin: 0;
@@ -87,7 +87,7 @@ h1,h2,h3,h4,h5{
 }
 
 .social-icon [class*="icon-"]{
-    color: black;
+    color: rgb(0, 0, 0);
     margin-left: 10px;
     display: flex;
     justify-content: center;
@@ -110,7 +110,7 @@ h1,h2,h3,h4,h5{
     top: 75px;
     left: 0;
     width: 100%;
-    background: rgba(0,0,0,.85);
+    background: rgba(0, 0, 0, 0.85);
     padding:0px;
     margin:0px;
     z-index: 2000px;
@@ -131,10 +131,10 @@ h1,h2,h3,h4,h5{
     
 }
 .menu__link:hover{
-     background-color: #DE423A;
+     background-color: #18206e;
 }
 .menu__link--select{
-    background-color: #DE423A;
+    background-color: #18206e;
     
 }
 .mostrar{
@@ -176,7 +176,7 @@ h1,h2,h3,h4,h5{
 
 /*----------------Estilos Principales------------------*/
 .group--color .container{
-	background-color: #DE423A;
+	background-color: #424ca8be;
 	padding: 10px;
 	text-align: center;
 	
@@ -206,7 +206,7 @@ h1,h2,h3,h4,h5{
 	
 }
 .group__title{
-	font-family:'Sacramento',cursive;
+	font-family:Georgia, 'Times New Roman', Times, serif;
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.8em;
@@ -398,7 +398,80 @@ h1,h2,h3,h4,h5{
 	}
 }
 
+/*---------------------Formulario-----------------------*/
+.campos{
+    font-family: 'Pacifico',cursive; 
+    font-size: 30px;
+    font-weight: bold;
+    max-width: 700px;
+    width: 100%;
+    background: #eacaee;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 7px rgba(0,0,0, 0.1);
+    position: relative;
+}
+.formulario{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.formulario .campos{
+    margin-top: 30px;
+}
+.form{
+    width: 100%;
+    margin-top: 20px;
+}
+.form label{
+    color: #410649;
+}
+.campos .form input{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+    font-size: 1.04rem;
+    color: #a19e9e;
+    font-family: "Advent Pro", sans-serif;
+    margin-top: 8px;
+}
+.campos .mensaje input{
+    height: 100px;
+    align-content: s;
 
+}
+.campos .columna{
+    display: flex;
+    column-gap: 15px;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ddd;
+    color: #a19e9e;
+    font-family: "Advent Pro", sans-serif;
+    margin-top: 8px;
+    border-radius: 6px;
+    font-size: 1.04rem;
+}
+/*----------------Mapa------------------*/
+.mapa{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+
+    margin-top: 75px;
+}
+.cont2{
+    display: flex;
+}
 
 
 
